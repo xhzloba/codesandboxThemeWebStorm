@@ -9,10 +9,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.xhzloba.codesandboxthemewebstorm.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <themeProvider id="com.github.xhzloba.codesandboxthemewebstorm" path="/theme/codesandbox.theme.json" />
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.xhzloba.codesandboxthemewebstorm.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
 </idea-plugin>
